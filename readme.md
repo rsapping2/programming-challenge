@@ -50,7 +50,7 @@ npm install @playwright/test@^1.55.0 dotenv@^17.2.2 --save-dev
 npm install @types/node@^20.19.13 typescript@^5.0.0 --save-dev
 ```
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### Run All Tests
 ```bash
