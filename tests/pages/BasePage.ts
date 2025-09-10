@@ -5,7 +5,10 @@ export interface Task {
   column: string;
   tags: string[];
 }
-
+// Note: This base page is set up where we could create classes that extend this class for 
+// page specific spec files. Example: We could do webpage extends base page, and add custom
+// functions to that class. With the scale of current tests it wasn't needed, but I wanted to
+// leave it as an option so we wouldn't have to recode this in the future.
 export class BasePage {
   readonly page: Page;
 
